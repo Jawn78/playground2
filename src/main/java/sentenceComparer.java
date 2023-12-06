@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class sentenceComparer {
     public static void main(String[] args) throws OrtException {
-        String[] sentences = new String[]{"The happy dog.","The happy dog."};
+        String[] sentences = new String[]{"Large Account Executive","Big Account Manager"};
 
         HuggingFaceTokenizer tokenizer = HuggingFaceTokenizer.newInstance("sentence-transformers/all-mpnet-base-v2");
 
